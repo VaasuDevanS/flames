@@ -21,7 +21,7 @@ Installation
 
 $ pip install flames
 
-    or
+or
 
 $ pip3 install flames
 
@@ -99,46 +99,46 @@ ENEMY
    |   |___________|
    |   |      |    |
 
- >>> i.info()
- Name                     : india
- Crush                    : america
- Result                   : AFFECTION
- FLAMES Count             : 8
- Common Letters           : i, a
- Order                    : L, E, M, F, S
- Relationship Percentage  : 39
- >>> i.value
- AFFECTION
+>>> i.info()
+Name                     : india
+Crush                    : america
+Result                   : AFFECTION
+FLAMES Count             : 8
+Common Letters           : i, a
+Order                    : L, E, M, F, S
+Relationship Percentage  : 39
+>>> i.value
+AFFECTION
 
- >>> i = flames("india", "australia")
- >>> i
- <-india:FLAMES:australia->
- >>> i.result()
-               __        __        __        __
-  .*.        /~ .~\    /~  ~\    /~ .~\    /~  ~\
-  ***       '      `\/'      *  '      `\/'      *
-   V       (                .*)(               . *)
- /\|/\      \            . *./  \            . *./
-   |         `\ .      . .*/'    `\ .      . .*/'       .*.
-   |           `\ * .*. */' _    _ `\ * .*. */'         ***
-                 `\ * */'  ( `\/'*)  `\ * */'          /\V
-                   `\/'     \   */'    `\/'              |/\
-                             `\/'                        |
+>>> i = flames("india", "australia")
+>>> i
+<-india:FLAMES:australia->
+>>> i.result()
+              __        __        __        __
+ .*.        /~ .~\    /~  ~\    /~ .~\    /~  ~\
+ ***       '      `\/'      *  '      `\/'      *
+  V       (                .*)(               . *)
+/\|/\      \            . *./  \            . *./
+  |         `\ .      . .*/'    `\ .      . .*/'       .*.
+  |           `\ * .*. */' _    _ `\ * .*. */'         ***
+                `\ * */'  ( `\/'*)  `\ * */'          /\V
+                  `\/'     \   */'    `\/'              |/\
+                            `\/'                        |
 
- >>> i.info()
- Name                     : india
- Crush                    : australia
- Result                   : LOVE
- FLAMES Count             : 10
- Common Letters           : i, a
- Order                    : M, A, S, F, E
- Relationship Percentage  : 22
- >>> i.value
- LOVE
+>>> i.info()
+Name                     : india
+Crush                    : australia
+Result                   : LOVE
+FLAMES Count             : 10
+Common Letters           : i, a
+Order                    : M, A, S, F, E
+Relationship Percentage  : 22
+>>> i.value
+LOVE
 
- >>> details = i.getinfo()
- >>> type(details)
- <type 'dict'>     # All the details shown in i.info method()
+>>> details = i.getinfo()
+>>> type(details)
+<type 'dict'>     # All the details shown in i.info method()
 
 time
 ====
