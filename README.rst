@@ -1,5 +1,11 @@
 FLAMES
 ******
+|PyPI download month| |PyPI download year| |PyPI download week|
+
+.. |PyPI download month| image:: https://pepy.tech/badge/flames 
+.. |PyPI download year| image:: https://pepy.tech/badge/flames/month
+.. |PyPI download week| image:: https://pepy.tech/badge/flames/week
+
 >>>
  A python module for our famous childhood game..! 
  FLAMES : Friend Love Affection Marriage Enemy Siblings
